@@ -1,0 +1,14 @@
+jobs:
+  - name: test-concourse
+    plan:
+    - task: print-hello
+      config:
+        image_resource:
+          type: docker-image
+          source:
+            repository: ubuntu
+        platform: linux
+        run:
+          path: echo
+          args:
+          - "hello world"
