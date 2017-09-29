@@ -1,3 +1,3 @@
-set -ex
+#!/bin/sh
 
 echo "hello world"
