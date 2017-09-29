@@ -8,4 +8,4 @@ image_resource:
     repository: altonf4/nodejs
 
 run:
-  path: scripts/script.sh
+  path: ./script.sh
