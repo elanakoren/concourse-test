@@ -5,7 +5,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: altonf4/nodejs
+    repository: ubuntu
 
 run:
   path: scripts/script.sh
