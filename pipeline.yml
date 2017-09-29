@@ -4,7 +4,7 @@ jobs:
   plan:
   - get: concourse-test
   - task: custom
-    file: scripts/task.yml
+    file: concourse-test/scripts/task.yml
 
 resources:
 - name: concourse-test
