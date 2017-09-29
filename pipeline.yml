@@ -3,7 +3,7 @@ jobs:
 - name: test-concourse
   plan:
   - get: concourse-test
-  - task: unit
+  - task: custom
     file: scripts/task.yml
 
 resources:
