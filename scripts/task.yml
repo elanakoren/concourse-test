@@ -6,6 +6,3 @@ image_resource:
   type: docker-image
   source:
     repository: altonf4/nodejs:latest
-
-run:
-  path: scripts/script.sh
